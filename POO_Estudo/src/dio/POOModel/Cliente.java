@@ -3,12 +3,9 @@ package dio.POOModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
+public class Cliente extends Pessoa {
 	
-	public Integer codigo;
-	public String nome; 
-	public String cpf; //string pq pode começar com 0
-	
+	public String numCartao;
 	private List<Endereco> enderecos;
 	 
 	//tem que colocar algo aqui sim!!! não pode ser nulo o cep

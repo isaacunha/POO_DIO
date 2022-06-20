@@ -5,10 +5,11 @@ public class EntregaCartao {
 	public static void main(String[] args) {
 		
 		Endereco endereco = new Endereco();
-		//endereco.cep = "000000";
+		endereco.cep = "000000";
 		//dados do endereço
 		
 		Cliente cliente = new Cliente();
+		
 		//dados do cliente
 		
 		
